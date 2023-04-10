@@ -1,92 +1,72 @@
 [
     {
         "id": 1,
-        "img": "https://i.ytimg.com/vi/ZMak63mHq5Y/maxresdefault.jpg",
+        "img": "../src/assets/google-1-1 1-1.png",
         "tittle": "Technical Database Engineer",
         "category": "Google LLC",
         "type": "Google LLC",
         "type2": "Full Time",
         "location": "Dhaka, Bangladesh",
-        "salary": "100K - 150K"
+        "salary": "100K - 150K",
+        "JobDescription": "A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface.",
+        "Job Responsibility": "Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements.",
+        "Experiences": "1 Years in this field.",
+        "Educational Requirements": "Bachelor degree to complete any reputational university."
     },
     {
         "id": 2,
-        "img": "https://i.ytimg.com/vi/ZMak63mHq5Y/maxresdefault.jpg",
-        "tittle": "Technical Database Engineer",
-        "category": "Google LLC",
-        "type": "Google LLC",
+        "img": "../src/assets/netflix-4 1.png",
+        "tittle": "Senior Product Designer",
+        "category": "Netflix",
+        "type": "Netflix",
         "type2": "Full Time",
         "location": "Dhaka, Bangladesh",
-        "salary": "100K - 150K"
+        "salary": "100K - 150K",
+        "JobDescription": "A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface.",
+        "Job Responsibility": "Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements.",
+        "Experiences": "2-6 Years in this field.",
+        "Educational Requirements": "Bachelor degree to complete any reputational university."
     },
     {
         "id": 3,
-        "img": "https://i.ytimg.com/vi/ZMak63mHq5Y/maxresdefault.jpg",
-        "tittle": "Technical Database Engineer",
-        "category": "Google LLC",
-        "type": "Google LLC",
-        "type2": "Full Time",
-        "location": "Dhaka, Bangladesh",
-        "salary": "100K - 150K"
+        "img": "../src/assets/tesla-9 1.png",
+        "tittle": "Software Engineer",
+        "category": "Tesla",
+        "type": "TESLA",
+        "type2": "remote",
+        "location": "USA",
+        "salary": "100K - 150K",
+        "JobDescription": "A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface.",
+        "Job Responsibility": "Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements.",
+        "Experiences": "2Years in this field.",
+        "Educational Requirements": "Bachelor degree to complete any reputational university."
     },
     {
         "id": 4,
-        "img": "https://i.ytimg.com/vi/ZMak63mHq5Y/maxresdefault.jpg",
+        "img": "../src/assets/google-1-1 1-1.png",
         "tittle": "Technical Database Engineer",
         "category": "Google LLC",
         "type": "Google LLC",
         "type2": "Full Time",
         "location": "Dhaka, Bangladesh",
-        "salary": "100K - 150K"
+        "salary": "100K - 150K",
+        "JobDescription": "A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface.",
+        "Job Responsibility": "Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements.",
+        "Experiences": "2-3 Years in this field.",
+        "Educational Requirements": "Bachelor degree to complete any reputational university."
     },
     {
         "id": 5,
-        "img": "https://i.ytimg.com/vi/ZMak63mHq5Y/maxresdefault.jpg",
+        "img": "../src/assets/google-1-1 1-1.png",
         "tittle": "Technical Database Engineer",
         "category": "Google LLC",
         "type": "Google LLC",
         "type2": "Full Time",
         "location": "Dhaka, Bangladesh",
-        "salary": "100K - 150K"
-    },
-    {
-        "id": 6,
-        "img": "https://i.ytimg.com/vi/ZMak63mHq5Y/maxresdefault.jpg",
-        "tittle": "Technical Database Engineer",
-        "category": "Google LLC",
-        "type": "Google LLC",
-        "type2": "Full Time",
-        "location": "Dhaka, Bangladesh",
-        "salary": "100K - 150K"
-    },
-    {
-        "id": 7,
-        "img": "https://i.ytimg.com/vi/ZMak63mHq5Y/maxresdefault.jpg",
-        "tittle": "Technical Database Engineer",
-        "category": "Google LLC",
-        "type": "Google LLC",
-        "type2": "Full Time",
-        "location": "Dhaka, Bangladesh",
-        "salary": "100K - 150K"
-    },
-    {
-        "id": 8,
-        "img": "https://i.ytimg.com/vi/ZMak63mHq5Y/maxresdefault.jpg",
-        "tittle": "Technical Database Engineer",
-        "category": "Google LLC",
-        "type": "Google LLC",
-        "type2": "Full Time",
-        "location": "Dhaka, Bangladesh",
-        "salary": "100K - 150K"
-    },
-    {
-        "id": 9,
-        "img": "https://i.ytimg.com/vi/ZMak63mHq5Y/maxresdefault.jpg",
-        "tittle": "Technical Database Engineer",
-        "category": "Google LLC",
-        "type": "Google LLC",
-        "type2": "Full Time",
-        "location": "Dhaka, Bangladesh",
-        "salary": "100K - 150K"
+        "salary": "100K - 150K",
+        "JobDescription": "A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface.",
+        "Job Responsibility": "Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements.",
+        "Experiences": "2-3 Years in this field.",
+        "Educational Requirements": "Bachelor degree to complete any reputational university."
     }
 ]
