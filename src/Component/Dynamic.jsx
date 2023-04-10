@@ -1,22 +1,17 @@
-import React, { useEffect, useState } from 'react';
-import { useLoaderData } from 'react-router-dom';
+import React from 'react';
+
 ;
 
-const Dynamic = () => {
+const Dynamic = ({ d, id }) => {
 
-    // const [dynamicItem, setDynamicItem] = useState([]);
-    // console.log(dynamicItem);
-    // useEffect(() => {
-    //     fetch('new.json')
-    //         .then(res => res.json())
-    //         .then(data => setDynamicItem(data))
-    // }, []);
+    // console.log(d, id);
 
-    const d = useLoaderData()
-    console.log(d);
+
+
     return (
+
         <div>
-            <h1>hi and fucckf</h1>
+            <h1>hi </h1>
         </div>
     );
 };

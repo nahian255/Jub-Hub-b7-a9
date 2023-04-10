@@ -9,6 +9,7 @@ import AppliedJobs from './Component/AppliedJobs'
 import Blog from './Component/Blog'
 import Dynamic from './Component/Dynamic'
 import FeaturedJobs from './Component/FeaturedJobs'
+import DJobs from './Component/DJobs'
 
 
 const router = createBrowserRouter([
@@ -22,9 +23,7 @@ const router = createBrowserRouter([
       },
       {
         path: '/job/:jobId',
-        element: <Dynamic></Dynamic>,
-        // loader: ({ params }) => fetch(`http://localhost:5173/jobs.json/${params.jobId}`)
-
+        element: <DJobs></DJobs>,
       },
       // {
       //   path: '/job/:id',
