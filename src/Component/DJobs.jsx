@@ -11,7 +11,7 @@ const DJobs = () => {
     const [found, setFound] = useState([])
     console.log(file);
     useEffect(() => {
-        fetch('https://raw.githubusercontent.com/Porgramming-Hero-web-course/b7a9-career-hub-nahian255/main/public/new.json?token=GHSAT0AAAAAAB5DPPAPAT3RRWX5HPYTPIL4ZBUGQUA')
+        fetch('https://raw.githubusercontent.com/Porgramming-Hero-web-course/b7a9-career-hub-nahian255/main/public/new.json?token=GHSAT0AAAAAAB5DPPAPYKKUBKMUPTZUCOGOZBUHDEQ')
             .then(res => res.json())
             .then(data => setFile(data))
     }, [])
@@ -26,9 +26,7 @@ const DJobs = () => {
                     id={id}
                     d={d}></Dynamic>))
             }
-            {/* {
-                file.find(list => d.id === id)
-            } */}
+
         </div>
     );
 };

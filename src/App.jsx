@@ -10,7 +10,7 @@ function App() {
     <div className='bg-light container'>
       <Nav></Nav>
       <Outlet />
-      <Footer />
+      {/* <Footer /> */}
     </div>
   )
 }
