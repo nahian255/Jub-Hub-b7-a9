@@ -13,7 +13,7 @@ function TextExample({ job }) {
                 <h4>{job.type}</h4>
                 <p>{job.location}</p>
                 <p>{job.salary}</p>
-                <Link> <button >View Deatials</button></Link>
+                <Link to={`/job/${job.id}`}> <button>View Deatials</button></Link>
             </Card.Body>
         </Card>
     );

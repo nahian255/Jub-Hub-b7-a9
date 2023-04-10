@@ -1,16 +1,16 @@
 import React, { useEffect, useState } from 'react';
 import FeatureItem from './FeatureItem';
-import { useLoaderData } from 'react-router-dom';
+// import { useLoaderData } from 'react-router-dom';
 
 const FeaturedJobs = () => {
-    const jobs = useLoaderData();
-    // const [jobs, setJobs] = useState([]);
+    // const jobs = useLoaderData();
+    const [jobss, setJobss] = useState([]);
 
-    // useEffect(() => {
-    //     fetch('jobs.json')
-    //         .then(res => res.json())
-    //         .then(data => setJobs(data))
-    // }, [])
+    useEffect(() => {
+        fetch('jobs.json')
+            .then(res => res.json())
+            .then(data => setJobss(data))
+    }, [])
 
     return (
         <div className='row'>
@@ -20,7 +20,7 @@ const FeaturedJobs = () => {
             </div>
             <div className='row row-cols-2 gap-5 mx-auto'>
                 {
-                    jobs.map((job => <FeatureItem
+                    jobss.map((job => <FeatureItem
                         key={job.id}
                         job={job}
                     ></FeatureItem>))

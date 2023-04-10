@@ -7,6 +7,9 @@ import Home from './Component/Home'
 import Statistics from './Component/Statistics'
 import AppliedJobs from './Component/AppliedJobs'
 import Blog from './Component/Blog'
+import Dynamic from './Component/Dynamic'
+import FeaturedJobs from './Component/FeaturedJobs'
+
 
 const router = createBrowserRouter([
   {
@@ -16,10 +19,23 @@ const router = createBrowserRouter([
       {
         path: '/',
         element: <Home></Home>,
-        loader: () => {
-          return fetch('jobs.json')
-        }
       },
+      {
+        path: '/job/:jobId',
+        element: <Dynamic></Dynamic>,
+        // loader: ({ params }) => fetch(`http://localhost:5173/jobs.json/${params.jobId}`)
+
+      },
+      // {
+      //   path: '/job/:id',
+      //   element: <Dynamic></Dynamic>,
+      //   // loader: () => {
+      //   //   return fetch('jobs.json')
+      //   // },
+      //   loader: ({ params }) => {
+      //     return fetch(`http://localhost:5173/job/${params.id}`)
+      //   }
+      // },
       {
         path: '/statistics',
         element: <Statistics></Statistics>
@@ -33,7 +49,11 @@ const router = createBrowserRouter([
         element: <Blog />
       },
     ]
-  }
+  },
+  {
+    path: '*',
+    element: <h1> Not Found Data...</h1>
+  },
 ])
 
 ReactDOM.createRoot(document.getElementById('root')).render(

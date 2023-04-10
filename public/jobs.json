@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "img": "https://i.ytimg.com/vi/ZMak63mHq5Y/maxresdefault.jpg",
+        "img": "/src/assets/google-1-1 1-1.png",
         "tittle": "Technical Database Engineer",
         "category": "Google LLC",
         "type": "Google LLC",
@@ -11,8 +11,8 @@
     },
     {
         "id": 2,
-        "img": "https://i.ytimg.com/vi/ZMak63mHq5Y/maxresdefault.jpg",
-        "tittle": "Technical Database Engineer",
+        "img": "/src/assets/netflix-4 1.png",
+        "tittle": "Senior Product Designer",
         "category": "Google LLC",
         "type": "Remote",
         "type2": "Full Time",
@@ -21,8 +21,8 @@
     },
     {
         "id": 3,
-        "img": "https://i.ytimg.com/vi/ZMak63mHq5Y/maxresdefault.jpg",
-        "tittle": "Technical Database Engineer",
+        "img": "/src/assets/tesla-9 1.png",
+        "tittle": "Software Engineer",
         "category": "Google LLC",
         "type": "Remote",
         "type2": "Full Time",
@@ -31,7 +31,7 @@
     },
     {
         "id": 4,
-        "img": "https://i.ytimg.com/vi/ZMak63mHq5Y/maxresdefault.jpg",
+        "img": "../assets/Logo/google-1-1 1.png",
         "tittle": "Technical Database Engineer",
         "category": "Google LLC",
         "type": "Remote",
