@@ -1,9 +1,13 @@
 import React from 'react';
-import DJobs from './DJobs';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faLightbulb } from '@fortawesome/free-solid-svg-icons';
+
 
 const Blog = () => {
     return (
         <div>
+            <FontAwesomeIcon icon={faLightbulb} />
+
             <h3>when should we use context api ?</h3>
             <p>Context is primarily used when some data needs to be accessible by many components at different nesting levels. Apply it sparingly because it makes component reuse more difficult. If you only want to avoid passing some props through many levels, component composition is often a simpler solution than context.</p>
 
@@ -12,6 +16,8 @@ const Blog = () => {
 
             <h3>what is useref ?</h3>
             <p>useRef(initialValue) is a built-in React hook that accepts one argument as the initial value and returns a reference (aka ref). A reference is an object having a special property current .</p>
+
+
         </div>
     );
 };

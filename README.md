@@ -1,6 +1,5 @@
-# career hub
+# Job hub..
 
-Please create yoru private repo 
-## [https://classroom.github.com/a/0Citjo2y](https://classroom.github.com/a/0Citjo2y)
+Now I want to show some bullet point, that I use in this project..
 
-### Private Repo Link: [https://classroom.github.com/a/0Citjo2y](https://classroom.github.com/a/0Citjo2y)
+
