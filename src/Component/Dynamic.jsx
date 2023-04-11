@@ -12,23 +12,43 @@ const Dynamic = ({ d }) => {
     return (
         <div className=''>
             <div className='p-5'>
-                <h1>{d.category}</h1>
-                <h3>Job Description :</h3>
-                <p>{d.JobDescription}</p>
-                <h3>Job Experiences :</h3>
-                <p>{d.Experiences}</p>
-                <h3> Salary:: {d.salary}</h3>
+                <h1 className='text-center p-2'>{d.category}</h1>
+                <h5>Job Description :</h5>
+                <p>{d.jobDescription}</p>
+                <h5>Job Responsibility:</h5>
+                <p>{d.jobResponsibility}</p>
+                <h5>Job Experiences :</h5>
+                <p>{d.experiences}</p>
+                <h5> Salary</h5>
+                <p>{d.salary}</p>
             </div>
             <div className='p-5 bg-secondary'>
                 <h2>Job Details </h2>
                 <hr />
-                <h5> Job Tittle :   {d.tittle}    </h5>
-                <h5>Salary : {d.salary}</h5>
+
+                <div className='d-flex'>
+                    <h5> Job Tittle : </h5>
+                    <p className='ms-2'> {d.tittle}.</p>
+                </div>
+                <div className='d-flex'>
+                    <h5> Salary :</h5>
+                    <p className='ms-2'>{d.salary}.</p>
+                </div>
                 <hr />
                 <h2>Contrac Information -</h2>
-                <h6>Phone : </h6>
-                <h6>Email :</h6>
-                <h6>Address :</h6>
+                <div className='d-flex'>
+                    <h6>Phone:</h6>
+                    <p className='ms-2'>{d.phone}.</p>
+                </div>
+                <div className='d-flex'>
+                    <h6>Email:</h6>
+                    <p className='ms-2'>{d.email}.</p>
+                </div>
+                <div className='d-flex'>
+                    <h6>Address:</h6>
+                    <p className='ms-2'>{d.Address}.</p>
+                </div>
+
 
                 <Link to='/appliedJobs'>
                     <button

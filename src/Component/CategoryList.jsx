@@ -10,8 +10,8 @@ const CategoryList = () => {
     }, [])
 
     return (
-        <div>
-            <div className='text-center'>
+        <div className='py-5'>
+            <div className='text-center mb-5'>
                 <h1>Job Category List</h1>
                 <p>Explore thousands of job opportunities with all the information you need. Its your future</p>
             </div>

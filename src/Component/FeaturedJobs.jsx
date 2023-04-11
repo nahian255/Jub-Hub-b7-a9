@@ -11,8 +11,8 @@ const FeaturedJobs = () => {
     }, [])
 
     return (
-        <div className='row'>
-            <div className='text-center'>
+        <div className='row py-5'>
+            <div className='text-center mb-5'>
                 <h1>Featured Jobs</h1>
                 <p>Explore thousands of job opportunities with all the information you need. Its your future</p>
             </div>
