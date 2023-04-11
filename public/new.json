@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "img": "../src/assets/google-1-1 1-1.png",
+        "img": "https://ibb.co/xjxcB83",
         "tittle": "Technical Database Engineer",
         "category": "Google",
         "type": "Google LLC",
@@ -18,7 +18,7 @@
     },
     {
         "id": 2,
-        "img": "../src/assets/netflix-4 1.png",
+        "img": "https://ibb.co/5cPjfTp",
         "tittle": "Senior Product Designer",
         "category": "Netflix",
         "type": "Netflix",
@@ -35,7 +35,7 @@
     },
     {
         "id": 3,
-        "img": "../src/assets/tesla-9 1.png",
+        "img": "https://ibb.co/Wk69rGs",
         "tittle": "Software Engineer",
         "category": "Tesla",
         "type": "TESLA",
@@ -52,7 +52,7 @@
     },
     {
         "id": 4,
-        "img": "../src/assets/google-1-1 1-1.png",
+        "img": "https://ibb.co/xjxcB83",
         "tittle": "Technical Database Engineer",
         "category": "Google ",
         "type": "Google LLC",
@@ -69,7 +69,7 @@
     },
     {
         "id": 5,
-        "img": "../src/assets/google-1-1 1-1.png",
+        "img": "https://ibb.co/xjxcB83",
         "tittle": "Technical Database Engineer",
         "category": "Google",
         "type": "Google ",
