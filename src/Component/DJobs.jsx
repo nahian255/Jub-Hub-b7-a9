@@ -1,30 +1,21 @@
 import React, { useEffect, useState } from 'react';
-import { useParams } from 'react-router-dom';
+import { useLoaderData, useParams } from 'react-router-dom';
 import Dynamic from './Dynamic';
 
-const DJobs = () => {
+const DJobs = (props) => {
+    const data = useLoaderData()
     const id = useParams()
     let dynamicId = parseFloat(id.jobId)
-    console.log(dynamicId);
 
-    const [file, setFile] = useState([])
-    const [found, setFound] = useState([])
-    console.log(file);
-    useEffect(() => {
-        fetch('https://raw.githubusercontent.com/Porgramming-Hero-web-course/b7a9-career-hub-nahian255/main/public/new.json?token=GHSAT0AAAAAAB5DPPAPYKKUBKMUPTZUCOGOZBUHDEQ')
-            .then(res => res.json())
-            .then(data => setFile(data))
-    }, [])
-
-    const result = file.filter(item => item.id === dynamicId)
-    console.log(result);
+    const result = data.filter(item => item.id === dynamicId)
+    // console.log(result);
     return (
         <div>
-
             {
                 result.map((d => <Dynamic
                     id={id}
-                    d={d}></Dynamic>))
+                    d={d}
+                ></Dynamic>))
             }
 
         </div>

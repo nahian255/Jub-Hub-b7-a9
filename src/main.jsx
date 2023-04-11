@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App'
 // import './index.css'
@@ -23,25 +23,17 @@ const router = createBrowserRouter([
       },
       {
         path: '/job/:jobId',
-        element: <DJobs></DJobs>,
+        element: <DJobs ></DJobs>,
+        loader: () => fetch('/new.json')
       },
-      // {
-      //   path: '/job/:id',
-      //   element: <Dynamic></Dynamic>,
-      //   // loader: () => {
-      //   //   return fetch('jobs.json')
-      //   // },
-      //   loader: ({ params }) => {
-      //     return fetch(`http://localhost:5173/job/${params.id}`)
-      //   }
-      // },
       {
         path: '/statistics',
         element: <Statistics></Statistics>
       },
       {
         path: '/appliedJobs',
-        element: <AppliedJobs />
+        element: <AppliedJobs />,
+        loader: () => fetch('/new.json')
       },
       {
         path: '/blog',
@@ -56,6 +48,8 @@ const router = createBrowserRouter([
 ])
 
 ReactDOM.createRoot(document.getElementById('root')).render(
+
+
   <React.StrictMode>
     <RouterProvider router={router} />
   </React.StrictMode>,

@@ -1,13 +1,11 @@
 import React, { useEffect, useState } from 'react';
 import FeatureItem from './FeatureItem';
-// import { useLoaderData } from 'react-router-dom';
 
 const FeaturedJobs = () => {
-    // const jobs = useLoaderData();
     const [jobss, setJobss] = useState([]);
 
     useEffect(() => {
-        fetch('jobs.json')
+        fetch('/jobs.json')
             .then(res => res.json())
             .then(data => setJobss(data))
     }, [])

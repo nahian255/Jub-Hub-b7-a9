@@ -1,7 +1,7 @@
 import Card from 'react-bootstrap/Card';
 
 function JobList({ job }) {
-    console.log(job);
+
     return (
         <Card style={{ width: '12rem' }}>
             <div>
