@@ -6,7 +6,7 @@ const Header = () => {
         <div className='d-flex justify-content-between'>
             <div className='align-items-center  my-auto'>
                 <h1>One Step Closer To Your <span> Dream Job</span></h1>
-                <p className='my-5'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt veritatis fugit veniam.</p>
+                <p className='my-5'>This is the side of Job Hub that you can found your favourate job. This time you choose and pick on your carrer and make your future better</p>
                 <button className='bg-info '> Get Start </button>
             </div>
 

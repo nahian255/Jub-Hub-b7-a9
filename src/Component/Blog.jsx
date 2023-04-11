@@ -1,12 +1,11 @@
 import React from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faLightbulb } from '@fortawesome/free-solid-svg-icons';
+
 
 
 const Blog = () => {
     return (
         <div>
-            <FontAwesomeIcon icon={faLightbulb} />
+
 
             <h3>when should we use context api ?</h3>
             <p>Context is primarily used when some data needs to be accessible by many components at different nesting levels. Apply it sparingly because it makes component reuse more difficult. If you only want to avoid passing some props through many levels, component composition is often a simpler solution than context.</p>

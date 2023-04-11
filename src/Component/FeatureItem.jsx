@@ -2,9 +2,7 @@ import Card from 'react-bootstrap/Card';
 import { Link, useLoaderData } from 'react-router-dom';
 
 function TextExample({ job }) {
-    // const data = useLoaderData()
-    // console.log(data);
-    // console.log(job);
+
     return (
         <Card style={{ width: '28rem' }}>
             <Card.Body>
